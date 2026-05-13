@@ -33,3 +33,5 @@ const addNumbers = function addNumbers(){
 console.log(a);
 console.log(b);
 console.log(addNumbers());
+
+//hosting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope during the compilation phase. This means that you can use variables and call functions before they are declared in the code. However, only the declarations are hoisted, not the initializations. For example, if you declare a variable with var, it will be hoisted and initialized with undefined, while if you declare a variable with let or const, it will be hoisted but not initialized, resulting in a ReferenceError if you try to access it before declaration. Function declarations are fully hoisted, meaning you can call them before they appear in the code, while function expressions are not hoisted, so you cannot call them before they are defined.
