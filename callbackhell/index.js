@@ -174,3 +174,26 @@ placeOrder(orderDetail)
 // // preparingOrder(orderDetail)
 // // pickupOrder(orderDetail)
 // // deliverOrder(orderDetail)
+
+
+async function order(){
+
+    try{
+   const response1 = await placeOrder(orderDetail)
+
+   const response2 = await preparingOrder(response1)
+   
+   const response3 = await preparingOrder(response2)
+
+   const response4 = await deliverOrder(response3)
+
+   console.log(response4)
+    }
+
+    catch(error){
+     console.log("Error" , error)
+    }
+    
+
+
+}
