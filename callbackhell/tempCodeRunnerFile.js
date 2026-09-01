@@ -1,0 +1,6 @@
+placeOrder(orderDetail)
+// .then((orderDetail) => preparingOrder(orderDetail))
+// .then((orderDetail) => pickupOrder(orderDetail))
+// // preparingOrder(orderDetail)
+// // pickupOrder(orderDetail)
+// // deliverOrder(orderDetail)
