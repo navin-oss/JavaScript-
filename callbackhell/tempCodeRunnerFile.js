@@ -1,6 +1,17 @@
-placeOrder(orderDetail)
-// .then((orderDetail) => preparingOrder(orderDetail))
-// .then((orderDetail) => pickupOrder(orderDetail))
-// // preparingOrder(orderDetail)
-// // pickupOrder(orderDetail)
-// // deliverOrder(orderDetail)
+
+// async function greet(){
+//     // return "navin"
+
+//     return new Promise((res , rej) =>{
+//         // res("navin")
+//         rej("navin" )
+//     })
+// }
+
+// const response = greet()
+// //console.log(response)
+// //response ek promise he 
+// response.then((data) => console.log(data))
+// .catch((err) => {
+//     console.log("error : " , err)
+// })
